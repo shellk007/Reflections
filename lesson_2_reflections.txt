@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+It creates the meta data for the files present in the directory. Its needed for git to maintain the repository and revisions.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+It's the intermediary between PWD and repository. It doesn't change the commit history and can be reverted without any changes. But can be shared for code reviews etc.
