@@ -8,3 +8,10 @@ Describe the differences between forks, clones, and branches. When would you use
 >>>Branch is the code changes tracked using versions in the repository that are connected.
 >>>Clone is used to clone a repository from local to local or remote to local or local to remote.
 >>> fork is used same as clone but only remote to remote.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+>>>I case of conflicts it's easy to fetch to the last known state of remote and then merge the remote copy and local master to get the code synced.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+>>>Easier thing would be the sharability of code and a lot of ideas.
+>>> harder thing would be to keep track of everything as it will get messy as more people start contributing.
